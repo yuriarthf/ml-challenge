@@ -3,3 +3,8 @@ data/*
 *pytest_cache*
 *.egg*
 *build*
+model/*
+!model/.gitkeep
+backup
+dask*
+testing
