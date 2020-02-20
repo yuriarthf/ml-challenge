@@ -22,10 +22,10 @@ The idea was tested using a graph of a particular time series present in the dat
 
 <div align="center">
 
-![Graph containing the predictions without correction](https://github.com/yuriarthf/ml-challenge/tree/master/image/no_correction.jpg =500x)\
+![Graph containing the predictions without correction](images/no_correction.jpg?raw=true =500x)\
 Fig 1. Graph containing the predictions without correction.
 
-![Graph containing the predictions with correction](https://github.com/yuriarthf/ml-challenge/tree/master/image/with_correction.jpg =500x)\
+![Graph containing the predictions with correction](images/with_correction.jpg?raw=true =500x)\
 Fig 2. Graph containing the predictions with correction
 
 </div>
@@ -39,7 +39,7 @@ The framework's operations are lazily evaluated and generates a graph trying to 
 
 <div align="center">
 
-![Dask Graph](https://github.com/yuriarthf/ml-challenge/tree/master/image/mydask.png =800x220)\
+![Dask Graph](images/mydask.png?raw=true =800x220)\
 Fig 3. Graph of the training operations.
 
 </div>
