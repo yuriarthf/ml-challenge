@@ -20,7 +20,7 @@ The current model proposal is composed of a map, using a duple of keys (country,
 The model has a correction functionality based on values that appear after the ones that are going to be predicted. To achieve that, it's used an inverse distance weight average together with the difference between the terms predicted by the Exponential Smoothing model and future values.\
 The idea was tested using a graph of a particular time series present in the dataset, and the results obtained were better than the one using the Exponential Smoothing model alone:
 
-<div style="text-align:center">
+<div align="center">
 
  <img src="images/no_correction.jpg?raw=true" width="500"></br>
  Fig 1. Graph containing the predictions without correction.
