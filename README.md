@@ -20,13 +20,13 @@ The current model proposal is composed of a map, using a duple of keys (country,
 The model has a correction functionality based on values that appear after the ones that are going to be predicted. To achieve that, it's used an inverse distance weight average together with the difference between the terms predicted by the Exponential Smoothing model and future values.\
 The idea was tested using a graph of a particular time series present in the dataset, and the results obtained were better than the one using the Exponential Smoothing model alone:
 
-<div align="center">
+<div style="text-align:center">
 
-![Graph containing the predictions without correction](images/no_correction.jpg?raw=true =500x)\
-Fig 1. Graph containing the predictions without correction.
+ <img src="images/no_correction.jpg?raw=true" width="500">
+ Fig 1. Graph containing the predictions without correction.
 
-![Graph containing the predictions with correction](images/with_correction.jpg?raw=true =500x)\
-Fig 2. Graph containing the predictions with correction
+ <img src="images/with_correction.jpg?raw=true" width="500">
+ Fig 2. Graph containing the predictions with correction
 
 </div>
 
@@ -39,8 +39,8 @@ The framework's operations are lazily evaluated and generates a graph trying to 
 
 <div align="center">
 
-![Dask Graph](images/mydask.png?raw=true =800x220)\
-Fig 3. Graph of the training operations.
+ <img src="images/mydask.png?raw=true" width="800" height="220">
+ Fig 3. Graph of the training operations.
 
 </div>
 
