@@ -22,10 +22,10 @@ The idea was tested using a graph of a particular time series present in the dat
 
 <div style="text-align:center">
 
- <img src="images/no_correction.jpg?raw=true" width="500">
+ <img src="images/no_correction.jpg?raw=true" width="500"></br>
  Fig 1. Graph containing the predictions without correction.
 
- <img src="images/with_correction.jpg?raw=true" width="500">
+ <img src="images/with_correction.jpg?raw=true" width="500"></br>
  Fig 2. Graph containing the predictions with correction
 
 </div>
@@ -39,7 +39,7 @@ The framework's operations are lazily evaluated and generates a graph trying to 
 
 <div align="center">
 
- <img src="images/mydask.png?raw=true" width="800" height="220">
+ <img src="images/mydask.png?raw=true" width="800" height="220"></br>
  Fig 3. Graph of the training operations.
 
 </div>
